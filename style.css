@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#cabecera{
+ 
+    background-image: url(Multimedia/Imagenes/Iconos/storm.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+     height: 5%;
+     border-bottom: 5vh solid rgb(148, 144, 180);
+
+}
+
+.cabecera__top_links{
+    display: flex;
+    list-style-type: none;
+    font-size: large;
+    background-color: rgb(148, 144, 180);
+
+  
+}
+.lista1{
+  padding-left: 1%;
+}
+.lista2{
+       
+    padding-left: 86%;
+}
+.block_logo{
+    display: flex;
+ 
+}
+.logo{
+  margin: auto;
+   
+
+}
+#cuerpo{
+  
+    background-color: rgb(184, 184, 201);
+     
+}
+.cuerpo_links{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: fantasy;
+    font-size: x-large;
+}
+
+
+.img1{
+    width: 140vh;
+    margin: 2% 17%;
+}
+.empresa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding-top: 3%;
+}
+.parrafo1{
+    margin-bottom: 1% ;
+    text-align: center;
+}
+ .parrafo2{
+     text-align: center;
+ }
+#contacto .mapa{
+    display: flex;
+    margin: 5% 31% 3% 31%; 
+    
+    width:35%;
+    height:25%;
+}
+
+#contacto .pie_lista{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+#contacto .icono_contacto{
+    
+    margin-bottom: 25%;
+    width: 40%;
+}
+.titulo_secciones{
+    font-family: 'Outfit', sans-serif;
+    font-size: 2.5vw;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom:2%;
+
+}
+.filtro{
+    
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+
+    
+}
+.iconos{
+    padding: 1.5%;
+    width: 6%;
+    height: 5;
+   }
+.iconos_camisa{
+    width: 10%;
+}
+.lupa{
+    width: 1.5%;
+    padding-top: 1%;
+    padding-left: 1%;
+       
+}
+
+.grid-container{
+    padding-top: 3%;
+    
+  display: grid;
+  justify-content: center;
+  gap: 3.5%;
+  grid-template-columns: repeat(4,20%);
+    grid-template-rows: repeat(4,50vh);
+    
+}
+.grid-container .imagen_producto{
+    width: 100%;
+    height: 100%;
+}
+.grid-container .item-producto .precio{
+    display: flex;
+    justify-content: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+
+.formulario_cuenta{
+    padding-left: 30%;
+    padding-right: 30%;
+    display: flex;
+     flex-direction: column;
+     align-content: space-around;
+}
+.titulo{
+    padding-right: 10%;
+    font-size: x-large;
+    
+
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.completar_datos{
+    padding-left: 31%;
+    padding-bottom: 2%;
+}
