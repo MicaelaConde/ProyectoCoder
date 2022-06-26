@@ -54,6 +54,7 @@
 .img1{
     width: 140vh;
     margin: 2% 17%;
+    padding-top: 3%;
 }
 .empresa{
     font-family: Arial, Helvetica, sans-serif;
@@ -159,3 +160,61 @@
     padding-left: 31%;
     padding-bottom: 2%;
 }
+
+
+/*Animaciones, transiciones*/
+
+.cuerpo_links .links_secciones:hover{
+    font-size: xx-large;
+}
+
+.block_logo .logo:hover{
+    transform: rotateX(350deg);
+    transition: all 2.5s ease-in-out;
+}
+
+.titulo_secciones:hover{
+    transform: translatex(100px);
+    transition: all 1seg ease-in-out;
+    }
+
+.cabecera__top_links:hover{
+    animation: colores 3s infinite;
+}  
+
+@keyframes colores {
+    10% {
+        background-color: rgb(209, 127, 127);
+    }
+    25%{
+        background-color: rgb(53, 27, 53);
+    }
+
+    25%{
+        background-color: rgb(192, 15, 15);
+    }
+
+    45%{
+        background-color: rgb(76, 128, 129);
+    }
+
+    60%{
+        background-color: rgb(41, 8, 190);
+    }
+    80%{
+        background-color: rgb(163, 161, 47);
+    }
+    100%{
+        background-color: rgb(12, 13, 14);
+    }
+}
+
+.filtro img:hover{
+    transform: skew(20deg, 20deg);
+    transition: all 6seg;
+}
+
+.grid-container div:hover{
+    transform: rotatez(50deg);
+}
+
