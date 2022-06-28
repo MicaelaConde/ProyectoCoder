@@ -21,11 +21,11 @@
   
 }
 .lista1{
-  padding-left: 1%;
+  padding-left: 0.5%;
 }
 .lista2{
        
-    padding-left: 86%;
+    padding-left: 84%;
 }
 .block_logo{
     display: flex;
@@ -164,57 +164,23 @@
 
 /*Animaciones, transiciones*/
 
-.cuerpo_links .links_secciones:hover{
-    font-size: xx-large;
-}
 
 .block_logo .logo:hover{
     transform: rotateX(350deg);
     transition: all 2.5s ease-in-out;
 }
 
-.titulo_secciones:hover{
-    transform: translatex(100px);
-    transition: all 1seg ease-in-out;
-    }
+/*Bootstrap Carousel*/
 
-.cabecera__top_links:hover{
-    animation: colores 3s infinite;
-}  
-
-@keyframes colores {
-    10% {
-        background-color: rgb(209, 127, 127);
-    }
-    25%{
-        background-color: rgb(53, 27, 53);
-    }
-
-    25%{
-        background-color: rgb(192, 15, 15);
-    }
-
-    45%{
-        background-color: rgb(76, 128, 129);
-    }
-
-    60%{
-        background-color: rgb(41, 8, 190);
-    }
-    80%{
-        background-color: rgb(163, 161, 47);
-    }
-    100%{
-        background-color: rgb(12, 13, 14);
-    }
+#carouselExampleControls{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 60%;
+    margin-left: 20%;
+     
 }
 
-.filtro img:hover{
-    transform: skew(20deg, 20deg);
-    transition: all 6seg;
+.d-block{
+     height: 50vh;
+  
 }
-
-.grid-container div:hover{
-    transform: rotatez(50deg);
-}
-
