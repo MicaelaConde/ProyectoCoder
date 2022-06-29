@@ -196,7 +196,11 @@
 }
 
 .pagination{
-    list-style-type: none;
+    
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+.navbar{
+    
+  background-color: rgb(184, 184, 201);
 }
