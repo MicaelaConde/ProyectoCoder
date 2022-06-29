@@ -61,13 +61,13 @@
     font-size: medium;
     padding-top: 3%;
 }
-.parrafo1{
+/* .parrafo1{
     margin-bottom: 1% ;
     text-align: center;
 }
  .parrafo2{
      text-align: center;
- }
+ } */
 #contacto .mapa{
     display: flex;
     margin: 5% 31% 3% 31%; 
@@ -118,6 +118,7 @@
     padding-left: 1%;
        
 }
+
 
 .grid-container{
     padding-top: 3%;
@@ -183,4 +184,19 @@
 .d-block{
      height: 50vh;
   
+}
+
+.collapse .card{
+    background-color: rgb(184, 184, 201);
+    border: none;
+}
+
+.inf-empresa{
+  text-align: center;
+}
+
+.pagination{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
 }
