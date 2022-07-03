@@ -104,28 +104,6 @@
 }
 
 
-.grid-container{
-    padding-top: 3%;
-    
-  display: grid;
-  justify-content: center;
-  gap: 3.5%;
-  grid-template-columns: repeat(4,20%);
-    grid-template-rows: repeat(4,50vh);
-    
-}
-.grid-container .imagen_producto{
-    width: 100%;
-    height: 100%;
-}
-.grid-container .item-producto .precio{
-    display: flex;
-    justify-content: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: x-large;
-}
-
-
 .formulario_cuenta{
     padding-left: 30%;
     padding-right: 30%;
@@ -226,8 +204,12 @@
     width: 100%;
     height: 90%;
 }
-
-
+.precio{
+display: flex;
+justify-content: right;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: x-large;
+}
 /* Responsive */
 
 @media only screen and (min-width: 481px) and (max-width: 960px){
@@ -235,6 +217,9 @@
         width: 50%;
        
       
+     }
+     .precio{
+        font-size: medium;
      }
      .row{
        height: 90vw; 
@@ -248,15 +233,24 @@
 }
 
 @media only screen and (max-width:480px){
-
-   .container .col{
+    .precio{
+        display: flex;
+        justify-content: center;
+        font-size: small;
+    }
+   
+    .container .col{
         width: 50%;
       
      }
      .row{
-       height: 50vh; 
+       height: 90vw; 
      }
 
+     .productos__item_productos
+     {
+        height: 40vw;
+     }
        .cabecera_top_links{
         font-size: small;
         padding: 1%;
