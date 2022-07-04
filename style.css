@@ -68,7 +68,7 @@
 }
 
 #contacto .icono_contacto{
-  
+  margin-left:22% ;
     width: 25%;
 }
 .titulo_secciones{
@@ -81,7 +81,7 @@
 
 }
 .filtro{
-    
+   
     display: flex;
     justify-content: flex-start;
     justify-content: space-around;
@@ -89,12 +89,16 @@
     
 }
 .iconos{
-    padding: 1.5%;
-    width: 6%;
-    height: 5;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    width: 4%;
+    height: 5%;
    }
 .iconos_camisa{
-    width: 10%;
+padding-top: 1.5%;
+   
+    width: 8%;
+    height: 7vw ;
 }
 .lupa{
     width: 1.5%;
@@ -160,6 +164,7 @@
 
 .pagination{
     
+    padding-top: 7%;
     display: flex;
     justify-content: center;
 }

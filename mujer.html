@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +15,7 @@
 </head>
 
 <body id="cuerpo">
+    
     <!-- Header -->
     <header id="cabecera">
         <nav>
@@ -29,14 +29,22 @@
         </div>
     </header>
     <!-- Fin header -->
+
+    <p class="titulo_secciones">MUJERES</p>
+
     <!-- Seccion buscador -->
     <section>
-        <p class="titulo_secciones">MUJERES</p>
 
-        <div>
-            <img src="multimedia/Imagenes/Iconos/lupa.ico" alt="Lupa" class="lupa">
-            <input type="text" name="Buscar">
-        </div>
+        <!-- Se agrega  Bootstrap al buscador -->
+        <nav class="navbar">
+            <div class="container-fluid">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+
         <div class="filtro">
             <img src="Multimedia/Imagenes/Iconos/mujer/wpants.ico" alt="Pantalon" class="iconos">
             <img src="multimedia/Imagenes/Iconos/mujer/camisa.ico" alt="Camisa" class="iconos">
@@ -49,7 +57,7 @@
 
 
     <!-- Seccion de productos Bootstrap -->
-      <div class="container">
+    <div class="container">
         <div class="row row-cols-4">
             <div class="col">
                 <div class="productos__item_productos">
@@ -88,22 +96,24 @@
             </div>
             <div class="col">
                 <div class="productos__item_productos">
-      
-                    <img src="Multimedia/Imagenes/Productos/mujeres/img4.jpg" alt="Camisa a cuadritos" class="imagen_producto">
+
+                    <img src="Multimedia/Imagenes/Productos/mujeres/img4.jpg" alt="Camisa a cuadritos"
+                        class="imagen_producto">
                     <p class="precio">$860</p>
                 </div>
             </div>
             <div class="col">
                 <div class="productos__item_productos">
-        
-                    <img src="Multimedia/Imagenes/Productos/mujeres/img2.jpg" alt="Pantalon rosa" class="imagen_producto">
+
+                    <img src="Multimedia/Imagenes/Productos/mujeres/img2.jpg" alt="Pantalon rosa"
+                        class="imagen_producto">
                     <p class="precio">$990</p>
                 </div>
-            
+
             </div>
             <div class="col">
                 <div class="productos__item_productos">
-      
+
                     <img src="Multimedia/Imagenes/Productos/mujeres/img7.jpg" alt="Pollera" class="imagen_producto">
                     <p class="precio">$390</p>
                 </div>
@@ -115,7 +125,8 @@
         <div class="row row-cols-4">
             <div class="col">
                 <div class="productos__item_productos">
-                    <img src="Multimedia/Imagenes/Productos/mujeres/img8.jfif" alt="Botas negras" class="imagen_producto">
+                    <img src="Multimedia/Imagenes/Productos/mujeres/img8.jfif" alt="Botas negras"
+                        class="imagen_producto">
                     <p class="precio">$1590</p>
                 </div>
             </div>
@@ -127,7 +138,8 @@
             </div>
             <div class="col">
                 <div class="productos__item_productos">
-                    <img src="Multimedia/Imagenes/Productos/mujeres/img12.jfif" alt="Pollera roja" class="imagen_producto">
+                    <img src="Multimedia/Imagenes/Productos/mujeres/img12.jfif" alt="Pollera roja"
+                        class="imagen_producto">
                     <p class="precio">$890</p>
                 </div>
             </div>
@@ -140,8 +152,18 @@
 
         </div>
     </div>
- <!-- Fin seccion de productos -->
+    <!-- Fin seccion de productos -->
 
+    <!-- Paginacion con Bootstrap -->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
 
     <!-- Footer - contiene ubicacion y contacto-->
     <footer id="contacto">

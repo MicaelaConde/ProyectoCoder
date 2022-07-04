@@ -14,7 +14,6 @@
 </head>
 <body id="cuerpo">
 
-    
        <!-- Header -->
        <header id="cabecera">
         <nav>
@@ -32,10 +31,17 @@
 <p class="titulo_secciones">NIÑOS Y NIÑAS</p>
 <!-- Seccion1 -->
 <section>
-  <div>
-    <img src="multimedia/Imagenes/Iconos/lupa.ico" alt="Lupa" class="lupa">
-    <input type="text" name="Buscar">
-</div>
+
+    <!-- Se agrega  Bootstrap al buscador -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+  
 <div class="filtro">
     <img src="multimedia/Imagenes/Iconos/Niños-as/pantalon.ico" alt="Pantalon" class="iconos">
     <img src="multimedia/Imagenes/Iconos/Niños-as/remera.ico" alt="Remera" class="iconos">
@@ -45,66 +51,107 @@
 
 <!-- Fin seccion1 -->
 
-<!-- Seccion 1 -->
-<section class="productos">
-    <div class="productos__item_productos">
-    <img src="Multimedia/Imagenes/Productos/niños/img1.jpg" alt="Remera manga larga negra" class="imagen_producto">
-    <p class="precio">$390</p>
-</div>
-<div class="productos__item_productos">
-    <img src="Multimedia/Imagenes/Productos/niños/img4.jfif" alt="Campera niña roja" class="imagen_producto">
-    <p class="precio">$1500</p>
-</div>
-<div class="productos__item_productos">
-    <img src="Multimedia/Imagenes/Productos/niños/img12.jfif" alt="Campera amarilla y verde" class="imagen_producto">
-    <p class="precio">$990</p>
-</div>
-<div class="productos__item_productos">
-    <img src="Multimedia/Imagenes/Productos/niños/img6.jfif" alt="pantalon beige" class="imagen_producto">
-    <p class="precio">$1300</p>
-</div>
-<div class="productos__item_productos">
-    <img src="Multimedia/Imagenes/Productos/niños/IMG8.jfif" alt="Tapado a cuadros" class="imagen_producto">
-    <p class="precio">$1480</p>
-</div>
-<div class="productos__item_productos">
-    <img src="Multimedia/Imagenes/Productos/niños/img6.jfif" alt="Conjunto para niño" class="imagen_producto">
-    <p class="precio">$1900</p>
-</div>
-<div class="productos__item_productos">
-    <img src="Multimedia/Imagenes/Productos/niños/img9.jpg" alt="Tapado niña" class="imagen_producto">
-    <p class="precio">$2000</p>
-</div>
-<div class="productos__item_productos">
-    <img src="Multimedia/Imagenes/Productos/niños/img4.jfif" alt="Remera manga larga celeste" class="imagen_producto">
-    <p class="precio">$500</p>
-</div>
-<div class="productos__item_productos">
-    <img src="Multimedia/Imagenes/Productos/niños/img2.jpg" alt="Remera blanca niño" class="imagen_producto">
-    <p class="precio">$350</p>
-</div>
-<div class="productos__item_productos">
-    <img src="Multimedia/Imagenes/Productos/niños/img3.jpg" alt="Remera rolling" class="imagen_producto">
-    <p class="precio">$480</p>
-</div>
-<div class="productos__item_productos">
-    <img src="Multimedia/Imagenes/Productos/niños/IMG11.jpg" alt="Campera rosa" class="imagen_producto">
-    <p class="precio">$2100</p>
-</div>
-<div class="productos__item_productos">
-    <img src="Multimedia/Imagenes/Productos/niños/img7.webp" alt="Pantalon verde" class="imagen_producto">
+
+
+  <!-- Seccion de productos Bootstrap -->
+  <div class="container">
+    <div class="row row-cols-4">
+        <div class="col">
+            <div class="productos__item_productos">
+                <img src="Multimedia/Imagenes/Productos/niños/img10.jfif" alt="Campera azul" class="imagen_producto">
     <p class="precio">$750</p>
-</div>
-<div class="productos__item_productos">
-    <img src="Multimedia/Imagenes/Productos/niños/img7.jfif" alt="Campera niño" class="imagen_producto">
+            </div>
+        </div>
+        <div class="col">
+            <div class="productos__item_productos">
+                <img src="Multimedia/Imagenes/Productos/niños/img7.jfif" alt="Campera niño" class="imagen_producto">
     <p class="precio">$890</p>
-</div>
-<div class="productos__item_productos">
-    <img src="Multimedia/Imagenes/Productos/niños/img10.jfif" alt="Campera azul" class="imagen_producto">
+            </div>
+        </div>
+        <div class="col">
+            <div class="productos__item_productos">
+                <img src="Multimedia/Imagenes/Productos/niños/img7.webp" alt="Pantalon verde" class="imagen_producto">
     <p class="precio">$750</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="productos__item_productos">
+                <img src="Multimedia/Imagenes/Productos/niños/IMG11.jpg" alt="Campera rosa" class="imagen_producto">
+                <p class="precio">$2100</p>
+            </div>
+        </div>
+    </div>
+    <div class="row row-cols-4">
+        <div class="col">
+            <div class="productos__item_productos">
+                <img src="Multimedia/Imagenes/Productos/niños/img3.jpg" alt="Remera rolling" class="imagen_producto">
+                <p class="precio">$480</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="productos__item_productos">
+                <img src="Multimedia/Imagenes/Productos/niños/img2.jpg" alt="Remera blanca niño" class="imagen_producto">
+                <p class="precio">$350</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="productos__item_productos">
+                <img src="Multimedia/Imagenes/Productos/niños/img4.jfif" alt="Remera manga larga celeste" class="imagen_producto">
+                <p class="precio">$500</p>
+            </div>
+        
+        </div>
+        <div class="col">
+            <div class="productos__item_productos">
+                <img src="Multimedia/Imagenes/Productos/niños/img9.jpg" alt="Tapado niña" class="imagen_producto">
+                <p class="precio">$2000</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="row row-cols-4">
+        <div class="col">
+            <div class="productos__item_productos">
+                <img src="Multimedia/Imagenes/Productos/niños/img6.jfif" alt="Conjunto para niño" class="imagen_producto">
+                <p class="precio">$1900</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="productos__item_productos">
+                <img src="Multimedia/Imagenes/Productos/niños/IMG8.jfif" alt="Tapado a cuadros" class="imagen_producto">
+    <p class="precio">$1480</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="productos__item_productos">
+                <img src="Multimedia/Imagenes/Productos/niños/img6.jfif" alt="pantalon beige" class="imagen_producto">
+                <p class="precio">$1300</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="productos__item_productos">
+                <img src="Multimedia/Imagenes/Productos/niños/img12.jfif" alt="Campera amarilla y verde" class="imagen_producto">
+                <p class="precio">$990</p>
+            </div>
+        </div>
+
+    </div>
 </div>
-</section>
-    
+<!-- Fin seccion de productos -->
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+</nav>
+
+
    <!-- Footer - contiene ubicacion y contacto-->
    <footer id="contacto">
     <div class="ubicacion" >
