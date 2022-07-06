@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     height: 5%;
-    border-bottom: 5vh solid rgb(148, 144, 180);
+    border-bottom: 5vh solid $colorprincipal2;
 
     nav {
         ul {
@@ -13,7 +13,7 @@
             padding-right: 25px;
             list-style-type: none;
             font-size: large;
-            background-color: rgb(148, 144, 180);
+            background-color: $colorprincipal2;
  
 
         }
@@ -31,7 +31,9 @@
         }
     }
 
-
-
-
+    @media only screen and (max-width:480px){
+         .logo{
+      width: 60%;    
+         }
+    }
 }

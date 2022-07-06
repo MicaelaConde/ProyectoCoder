@@ -1,6 +1,6 @@
 #cuerpo {
 
-    background-color: rgb(184, 184, 201);
+    background-color: $colorprincipal;
 
 }
 
@@ -9,19 +9,22 @@
     justify-content: space-around;
     padding-top: 2%;
 
-    a {
+    .bton{
         padding: 1% 2%;
         border-radius: 0.375rem;
-        ;
         border: solid rgb(124, 92, 145) 1px;
         text-decoration: none;
         font-family: fantasy;
         font-size: large;
 
         &:hover {
-            background-color: rgb(148, 144, 180);
+            background-color:$colorprincipal2;
         }
-
+        @media only screen and (max-width:480px){
+            width:20vw;
+            font-size: xx-small;
+            text-align: center;
+        }
 
     }
 
@@ -35,6 +38,10 @@
 
     .d-block {
         height: 50vh;
+        @media only screen and (max-width:480px){
+            height: 25vh;
+        }
+
     }
 
 }
@@ -48,9 +55,16 @@
         text-align: center;
     }
         .collapse .card {
-            background-color: rgb(184, 184, 201);
+            background-color:$colorprincipal;
             border: none;
-
-        
+                   
+    }
+    @media only screen and (max-width:480px){
+        .btn{
+            width: 60px;
+            height: 30px;
+            font-size: 50%;
+           text-align: center;
+        }
     }
 }

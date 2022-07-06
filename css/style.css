@@ -21,6 +21,11 @@
   transform: rotateX(350deg);
   transition: all 2.5s ease-in-out;
 }
+@media only screen and (max-width: 480px) {
+  #cabecera .logo {
+    width: 60%;
+  }
+}
 
 #cuerpo {
   background-color: rgb(184, 184, 201);
@@ -31,7 +36,7 @@
   justify-content: space-around;
   padding-top: 2%;
 }
-.button-group a {
+.button-group .bton {
   padding: 1% 2%;
   border-radius: 0.375rem;
   border: solid rgb(124, 92, 145) 1px;
@@ -39,8 +44,15 @@
   font-family: fantasy;
   font-size: large;
 }
-.button-group a:hover {
+.button-group .bton:hover {
   background-color: rgb(148, 144, 180);
+}
+@media only screen and (max-width: 480px) {
+  .button-group .bton {
+    width: 20vw;
+    font-size: xx-small;
+    text-align: center;
+  }
 }
 
 #carouselExampleControls {
@@ -49,6 +61,11 @@
 }
 #carouselExampleControls .d-block {
   height: 50vh;
+}
+@media only screen and (max-width: 480px) {
+  #carouselExampleControls .d-block {
+    height: 25vh;
+  }
 }
 
 .empresa {
@@ -62,6 +79,14 @@
 .empresa .collapse .card {
   background-color: rgb(184, 184, 201);
   border: none;
+}
+@media only screen and (max-width: 480px) {
+  .empresa .btn {
+    width: 60px;
+    height: 30px;
+    font-size: 50%;
+    text-align: center;
+  }
 }
 
 #contacto {
@@ -77,6 +102,11 @@
   width: 28%;
   height: 15vh;
 }
+@media only screen and (max-width: 480px) {
+  #contacto div iframe {
+    height: 40px;
+  }
+}
 #contacto ul {
   display: flex;
   justify-content: center;
@@ -85,6 +115,12 @@
 #contacto ul .icono_contacto {
   margin-left: 22%;
   width: 25%;
+}
+@media only screen and (max-width: 480px) {
+  #contacto ul .icono_contacto {
+    width: 25%;
+    height: 25%;
+  }
 }
 
 * {
@@ -213,30 +249,6 @@
   .cabecera_top_links {
     font-size: small;
     padding: 1%;
-  }
-  .logo {
-    width: 60%;
-  }
-  .bton {
-    width: 20vw;
-    font-size: xx-small;
-    text-align: center;
-  }
-  .d-block {
-    height: 25vh;
-  }
-  .inf-empresa .btn {
-    width: 60px;
-    height: 30px;
-    font-size: 50%;
-    text-align: center;
-  }
-  #contacto .mapa {
-    height: 40px;
-  }
-  .icono_contacto {
-    width: 25%;
-    height: 25%;
   }
 }
 /* Fin Responsive */
