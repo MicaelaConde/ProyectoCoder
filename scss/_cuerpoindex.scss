@@ -1,0 +1,56 @@
+#cuerpo {
+
+    background-color: rgb(184, 184, 201);
+
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+
+    a {
+        padding: 1% 2%;
+        border-radius: 0.375rem;
+        ;
+        border: solid rgb(124, 92, 145) 1px;
+        text-decoration: none;
+        font-family: fantasy;
+        font-size: large;
+
+        &:hover {
+            background-color: rgb(148, 144, 180);
+        }
+
+
+    }
+
+
+}
+
+#carouselExampleControls {
+    margin-top: 5%;
+    margin-bottom: 3%;
+
+
+    .d-block {
+        height: 50vh;
+    }
+
+}
+
+.empresa {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding-top: 3%;
+
+    .inf-empresa {
+        text-align: center;
+    }
+        .collapse .card {
+            background-color: rgb(184, 184, 201);
+            border: none;
+
+        
+    }
+}

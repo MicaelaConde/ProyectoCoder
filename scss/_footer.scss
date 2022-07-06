@@ -1,0 +1,29 @@
+#contacto {
+    padding-top: 3%;
+
+    div {
+        display: flex;
+        justify-content: center;
+        padding-top: 6%;
+        padding-bottom: 2%;
+
+        iframe {
+            width: 28%;
+            height: 15vh;
+
+        }
+
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+        .icono_contacto {
+            margin-left: 22%;
+            width: 25%;
+        }
+
+    }
+}
