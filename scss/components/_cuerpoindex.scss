@@ -1,13 +1,13 @@
 #cuerpo {
-
-    background-color: $colorprincipal;
-
+    background-color: #d2d1d4;
+    background-image: radial-gradient(#a595ae 2px, #d2d1d4 2px);
+    background-size: 40px 40px;
 }
 
 .button-group {
     display: flex;
     justify-content: space-around;
-    padding-top: 2%;
+    padding-top: 5%;
 
     .bton{
         padding: 1% 2%;
@@ -32,7 +32,7 @@
 }
 
 #carouselExampleControls {
-    margin-top: 5%;
+    margin-top: 7%;
     margin-bottom: 3%;
 
 
@@ -55,7 +55,7 @@
         text-align: center;
     }
         .collapse .card {
-            background-color:$colorprincipal;
+            background-color: $colorprincipal2;
             border: none;
                    
     }
