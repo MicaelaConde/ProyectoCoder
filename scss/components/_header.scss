@@ -22,9 +22,8 @@
     }
 
     div {
-        display: flex;
-        justify-content: center;
-
+        @include flex(flex,center);
+        
         img {
             &:hover {
                 transform: rotateX(350deg);

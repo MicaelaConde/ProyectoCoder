@@ -19,8 +19,7 @@
     }
 
     ul {
-        display: flex;
-        justify-content: center;
+        @include flex(flex,center);
         list-style-type: none;
 
         .icono_contacto {

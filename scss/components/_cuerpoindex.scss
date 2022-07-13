@@ -1,9 +1,6 @@
 
  #cuerpo {
-    background-color: #d2d1d4;
-    background-image: radial-gradient(#a595ae 2px, #d2d1d4 2px);
-    background-size: 40px 40px;
-
+   @include patronfondo;
  }
 
 .button-group {
