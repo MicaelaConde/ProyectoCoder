@@ -3,7 +3,7 @@
     background-image: url(../Multimedia/Imagenes/Iconos/storm.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 5%;
+    height: map-get($posicion, height);
     border-bottom: 3vh solid $colorprincipal2;
 
     nav {
