@@ -1,69 +1,69 @@
 
  #cuerpo {
-   @include patronfondo;
+    @include patronfondo;
+  }
+ 
+ .button-group {
+     display: flex;
+     justify-content: space-around;
+     padding-top: 5%;
+ 
+     .bton{
+         padding: 1% 2%;
+         border-radius: 0.375rem;
+         border: solid rgb(124, 92, 145) 1px;
+         text-decoration: none;
+         font-family: fantasy;
+         font-size: large;
+ 
+         &:hover {
+             background-color:$colorprincipal2;
+         }
+         @media only screen and (max-width:480px){
+             width:20vw;
+             font-size: xx-small;
+             text-align: center;
+         }
+ 
+     }
+ 
+ 
  }
-
-.button-group {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5%;
-
-    .bton{
-        padding: 1% 2%;
-        border-radius: 0.375rem;
-        border: solid rgb(124, 92, 145) 1px;
-        text-decoration: none;
-        font-family: fantasy;
-        font-size: large;
-
-        &:hover {
-            background-color:$colorprincipal2;
-        }
-        @media only screen and (max-width:480px){
-            width:20vw;
-            font-size: xx-small;
+ 
+ #carouselExampleControls {
+     margin-top: 7%;
+     margin-bottom: 3%;
+ 
+ 
+     .d-block {
+         height: 50vh;
+         @media only screen and (max-width:480px){
+             height: 25vh;
+         }
+ 
+     }
+ 
+ }
+ 
+ .empresa {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: medium;
+     padding-top: 3%;
+ 
+     .inf-empresa {
+         text-align: center;
+     }
+         .collapse .card {
+             background-color: $colorprincipal2;
+             border: none;
+                    
+     }
+     @media only screen and (max-width:480px){
+         .btn{
+             width: 60px;
+             height: 30px;
+             font-size: 50%;
             text-align: center;
-        }
-
-    }
-
-
-}
-
-#carouselExampleControls {
-    margin-top: 7%;
-    margin-bottom: 3%;
-
-
-    .d-block {
-        height: 50vh;
-        @media only screen and (max-width:480px){
-            height: 25vh;
-        }
-
-    }
-
-}
-
-.empresa {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    padding-top: 3%;
-
-    .inf-empresa {
-        text-align: center;
-    }
-        .collapse .card {
-            background-color: $colorprincipal2;
-            border: none;
-                   
-    }
-    @media only screen and (max-width:480px){
-        .btn{
-            width: 60px;
-            height: 30px;
-            font-size: 50%;
-           text-align: center;
-        }
-    }
-}
+         }
+     }
+ }

@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@import 'base/extends';
 @import 'base/variables';
 @import 'base/mapas';
 @import 'base/mixin';
@@ -7,10 +12,6 @@
 @import 'components/footer';
 @import 'components/productos.scss';
 
-* {
-    padding: 0;
-    margin: 0;
-}
 
 
 .formulario_cuenta{
