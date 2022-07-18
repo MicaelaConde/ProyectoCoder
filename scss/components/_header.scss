@@ -1,19 +1,14 @@
-#cabecera {
 
-    background-image: url(../Multimedia/Imagenes/Iconos/storm.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: map-get($posicion, height);
-    border-bottom: 3vh solid $colorprincipal2;
-
-    nav {
+#cabecera{
+  
+   nav{
         ul {
             display: flex;
             justify-content: space-between;
             padding-right: 25px;
             list-style-type: none;
-            font-size: large;
-            background-color: $colorprincipal2;
+            font-size: medium;
+            background-color:rgba(121, 105, 167, 0.205);
             @media only screen and (max-width:480px){
                  font-size: small;
                  padding: 1%;
@@ -21,10 +16,11 @@
         }
     }
 
-    div {
+    div{
         @include flex(flex,center);
         
-        img {
+        img{
+            width: 30%;
             &:hover {
                 transform: rotateX(350deg);
                 transition: all 2.5s ease-in-out;
@@ -37,4 +33,5 @@
       width: 60%;    
          }
     }
+
 }

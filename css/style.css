@@ -208,7 +208,11 @@ video {
   }
 }
 .fondo-sec #cabecera div .logo {
-  width: 50%;
+  width: 30%;
+}
+.fondo-sec .filtro-iconos {
+  margin-top: 2%;
+  margin-bottom: 3%;
 }
 @media only screen and (max-width: 480px) {
   .fondo-sec .filtro-iconos {
@@ -333,6 +337,7 @@ video {
 }
 .container .row .col .productos__item_productos {
   background-color: rgb(186, 177, 202);
+  height: 30vw;
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .container .row .col .productos__item_productos {

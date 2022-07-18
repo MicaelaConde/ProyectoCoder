@@ -1,42 +1,156 @@
-.titulo_secciones {
-    font-family: 'Outfit', sans-serif;
-    font-size: 2.5vw;
-    color: nth($colores,2);
-    text-align: center;
-   @extend %margen;
+
+
+#cuerpo{
+    background-color:  #1e3c54 ;
 
 }
+.fondo{
+    
+    background-image: url(../Multimedia/Imagenes/Iconos/storm.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+        height: 52vw;
+        @media only screen and (max-width:480px){
+          height: 90vw;
+        }
 
-.navbar {
+}
+.fondo-sec{
+    background-color:  #a2a6a8 ;
 
-    background-color: rgb(184, 184, 201);
+    #cabecera{
+        background-image: url(../Multimedia/Imagenes/Iconos/storm.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+        height: 20vw;
+        border-bottom: solid rgba(118, 87, 189, 0.644) 5px;
+        @media only screen and (max-width:480px){
+            height: 50vw;
+          }
+div{
+    .logo{
+        width: 30%;
+    }
 }
 
-.filtro {
+    }
+    
+.filtro-iconos {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    @media only screen and (max-width:480px){
+    margin-bottom: 5%;
+    }
+}
+}
+.cabecera-productos{
+       
+        .titulo_secciones {
+            
+            background-color: rgba(121, 105, 167, 0.205);
+            padding-top: 1%;
+            padding-bottom: 1%;
+            margin-top: 5%;
+            margin-bottom: 3%;
+            font-family: 'Outfit', sans-serif;
+            font-size: 2.5vw;
+            color: nth($colores,2);
+            text-align: center;
+           @extend %margen;
+           @media only screen and (max-width:480px){
+            font-size: medium;
+        }
+        }
+ 
+}
 
+       
+.navbar .container-fluid {
+.d-flex{
+    margin-top: 3%;
+    width: 10%;
+
+    .form-control{
+        width: 15vw;
+        height: 3vw;
+        @media only screen and (max-width:480px){
+
+            height: 6vw;
+    }
+    }
+
+
+    .btn{
+        display: flex;
+        background-color:  rgba(118, 87, 189, 0.644);
+        font-size: smaller;
+        width: 15vw;
+        height: 3vw;
+        color: black;
+        &:hover{
+            background-color:  rgba(118, 87, 189, 0.644);
+            color: white;
+        }
+        
+        @media only screen and (max-width:480px){
+
+            width: 15vw;
+            height: 6vw;
+    }
+}
+}
+}
+.filtro-iconos {
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
     display: flex;
    @extend %centrado;
+   @media only screen and (max-width:480px){
 
+margin-top: 5%;
+   }
     .iconos {
-        padding-top: map-get($posicion, ptop-posicion);
-        padding-bottom: map-get($posicion, pbottom-posicion);
+        
         width: 4%;
         height: 5%;
+
+        &:hover{
+          transform: scale(2);
+            transition: 0.5s;
+        }
+        @media only screen and (max-width:480px){
+            width: 7%;
+            height: 6%;
+    
+               }
     }
 
     .iconos_camisa {
-        padding-top: 1.5%;
-
-        width: map-get($posicion, with);
-        height: 7vw;
+        
+        width: 7%;
+    
+        
+        &:hover{
+            transform: scale(2);
+            transition: 0.5s;
+        }
+        @media only screen and (max-width:480px){
+            width: 11%;
+            height: 6%;
+    
+               }
     }
 }
 
+
 .container{
     .row {
+       
         height: 30vw;
         @media only screen and (min-width: 481px) and (max-width: 960px){
-            height: 90vw; 
+       
+            height: 60vw; 
         }
 
         @media only screen and (max-width:480px){
@@ -47,17 +161,19 @@
             gap: 5%;
 
             @media only screen and (min-width: 481px) and (max-width: 960px){
-                width: 55%;
+                width: 38vw;
+                height: 30vw;
             }
 
             @media only screen and (max-width:480px){
                 width: 50%;
             }
             .productos__item_productos {
-
+             
+                background-color: rgb(186, 177, 202);
                 height: 30vw;
                 @media only screen and (min-width: 481px) and (max-width: 960px){
-                    height: 45vw;
+                    height: 100%;
                 }
                 @media only screen and (max-width:480px){
                     height: 40vw;
@@ -90,10 +206,7 @@
     }
 
 }
-
-
-
-    .pagination {
+ .pagination {
 
         padding-top: 7%;
         display: flex;

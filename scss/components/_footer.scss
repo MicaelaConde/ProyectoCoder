@@ -19,13 +19,20 @@
     }
 
     ul {
+        background-color: rgba(121, 105, 167, 0.205);
         @include flex(flex,center);
         list-style-type: none;
-
+        height: 8vh;
+        align-items: center;
         .icono_contacto {
             margin-left: 22%;
             width: 25%;
-
+            
+            &:hover{
+                width: 38%;
+                transition: 60ms;
+            }
+            
             @media only screen and (max-width:480px){
                 width: 25%;
                 height: 25%;
@@ -34,3 +41,20 @@
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
